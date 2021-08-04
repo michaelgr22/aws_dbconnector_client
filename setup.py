@@ -12,5 +12,5 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=['aws_dbconnector_client'],
-    install_requires=['aws_secretsmanager_client, aws_postgresdb_client'],
+    install_requires=['aws_secretsmanager_client', 'aws_postgresdb_client'],
 )
